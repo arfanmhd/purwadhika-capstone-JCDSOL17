@@ -213,7 +213,7 @@ while True:
                      
                           for i in range(len(rincian)):
                                if i == len(rincian)-1:
-                                    rekap_transaksi += f" dan {rincian[i][0]} unit {rincian[i][1] }."
+                                    rekap_transaksi += f"dan {rincian[i][0]} unit {rincian[i][1] }."
                                else:
                                     rekap_transaksi += f"{rincian[i][0]} unit {rincian[i][1]}, " 
                           print (rekap_transaksi)
